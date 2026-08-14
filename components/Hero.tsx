@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="bg-white relative flex min-h-[40svh] flex-col justify-center overflow-hidden bg-[center_65%] bg-contain bg-no-repeat sm:min-h-[76svh] md:min-h-[88vh] xl:min-h-[120vh]"
+      className="bg-white relative flex min-h-[40svh] flex-col justify-center overflow-hidden bg-[center_65%] bg-contain bg-no-repeat sm:min-h-[76svh] md:min-h-[88vh] xl:min-h-[110vh]"
       style={{
         backgroundImage: "url('/images/logo.png')",
       }}

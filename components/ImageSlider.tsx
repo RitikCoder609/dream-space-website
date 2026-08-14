@@ -48,7 +48,7 @@ export default function ImageSlider() {
   }, [activeCategory, images.length]);
 
   return (
-    <section className="w-full overflow-hidden bg-white py-14 sm:py-16 md:py-20">
+    <section  id="properties" className="w-full overflow-hidden bg-white py-14 sm:py-16 md:py-20">
       <div className="mx-auto w-full max-w-[1200px] px-4 sm:px-5 md:px-8">
         <div
           role="tablist"

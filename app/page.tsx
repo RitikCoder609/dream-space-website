@@ -4,7 +4,10 @@ import SplitSection from "@/components/SplitSection";
 import Footer from "@/components/Footer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
 import { site } from "@/lib/site";
-import ImageSlider from "@/components/ImageSlider";
+// import ImageSlider from "@/components/ImageSlider";
+import Policy from "@/components/Policy";
+import OurTeam from "@/components/OurTeam";
+
 
 export default function Home() {
   return (
@@ -20,19 +23,20 @@ export default function Home() {
         badgeValue="7+ Yrs"
         badgeLabel="Trusted presence in Patna's real estate market"
         eyebrow="Who We Are"
-        heading="A real estate partner that treats your address like it matters."
+        heading="A trusted real estate company in Patna."
         paragraph="Dream Space Infra Developers (OPC) Pvt Ltd is a trusted real estate marketing company dedicated to turning your dreams into reality. Whether you're searching for a sweet home to settle into, or a profitable property to invest in, we bring verified listings, honest guidance and end-to-end support to every deal."
         features={[
-          "Verified sale & purchase deals",
-          "Residential & investment properties",
-          "On-ground support across Patna",
+          "Residential & commercial property expertise",
+          "Curated properties across Patna",
+          "Professional support from enquiry to site visit",
+          "Customer-first & transparent property guidance",
         ]}
         ctaLabel="Talk to Our Team"
         ctaHref={site.whatsapp}
       />
 
-      <SplitSection
-        id="properties"
+      {/* <SplitSection
+       
         reverse
         bgClassName="bg-ivory"
         imageSrc="/images/flat2.png"
@@ -49,11 +53,15 @@ export default function Home() {
         ]}
         ctaLabel="Enquire About This Listing"
         ctaHref={site.whatsapp}
-      />
+      /> */}
 
-      <ImageSlider />
+      {/* <ImageSlider /> */}
+
+      <OurTeam/>
+      <Policy/>
 
       <Footer />
+
       <WhatsAppFloat />
     </main>
   );

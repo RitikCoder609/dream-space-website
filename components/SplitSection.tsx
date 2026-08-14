@@ -40,9 +40,7 @@ export default function SplitSection({
     >
       <div
         className={`mx-auto grid w-full max-w-[1180px] items-center gap-16 px-4 sm:px-6 md:px-8 lg:gap-20 ${
-          reverse
-            ? "lg:grid-cols-[1fr_0.85fr]"
-            : "lg:grid-cols-[0.85fr_1fr]"
+          reverse ? "lg:grid-cols-[1fr_0.85fr]" : "lg:grid-cols-[0.85fr_1fr]"
         }`}
       >
         <Reveal
@@ -94,14 +92,52 @@ export default function SplitSection({
             ))}
           </ul>
 
-          <a
+          {/* <a
             href={ctaHref}
             target="_blank"
             rel="noopener noreferrer"
             className="mt-8 inline-flex items-center gap-2.5 rounded-sm bg-gold px-6 py-[14px] text-[0.84rem] font-bold tracking-wide text-navy-deep transition-all hover:-translate-y-0.5 hover:bg-gold-light sm:px-7 sm:py-[15px]"
           >
             {ctaLabel}
-          </a>
+          </a> */}
+          <div className="mt-8 flex items-center gap-5">
+            <a
+              href={ctaHref}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2.5 rounded-sm bg-gold px-6 py-[14px] text-[0.84rem] font-bold tracking-wide text-navy-deep transition-all hover:-translate-y-0.5 hover:bg-gold-light sm:px-7 sm:py-[15px]"
+            >
+              {ctaLabel}
+            </a>
+
+            <div className="relative w-[150px] overflow-hidden rounded-sm border border-gold px-3 py-2.5">
+              <div className="animate-brokerage flex w-max whitespace-nowrap font-bold">
+                <div className="flex items-center">
+                  <span className="text-gold">0%</span>
+                  <span className="ml-2 text-[0.68rem] tracking-[0.12em] text-navy">
+                    BROKERAGE
+                  </span>
+                  <span className="mx-4 text-gold">•</span>
+                  <span className="text-[0.68rem] tracking-[0.12em] text-navy">
+                    NO COMMISSION
+                  </span>
+                  <span className="mx-4 text-gold">•</span>
+                </div>
+
+                <div className="flex items-center">
+                  <span className="text-gold">0%</span>
+                  <span className="ml-2 text-[0.68rem] tracking-[0.12em] text-navy">
+                    BROKERAGE
+                  </span>
+                  <span className="mx-4 text-gold">•</span>
+                  <span className="text-[0.68rem] tracking-[0.12em] text-navy">
+                    NO COMMISSION
+                  </span>
+                  <span className="mx-4 text-gold">•</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </Reveal>
       </div>
     </section>
