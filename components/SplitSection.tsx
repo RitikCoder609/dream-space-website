@@ -36,7 +36,7 @@ export default function SplitSection({
   return (
     <section
       id={id}
-      className={`overflow-hidden py-20 sm:py-24 md:py-32 ${bgClassName}`}
+      className={`overflow-hidden py-20 sm:py-24 md:py-32  ${bgClassName}`}
     >
       <div
         className={`mx-auto grid w-full max-w-[1180px] items-center gap-16 px-4 sm:px-6 md:px-8 lg:gap-20 ${

@@ -18,7 +18,7 @@ export default function Home() {
 
       <SplitSection
         id="about"
-        imageSrc="/images/flat1.jpg"
+        imageSrc="/images/frontimg2.png"
         imageAlt="Dream Space residential property in Patna"
         badgeValue="7+ Yrs"
         badgeLabel="Trusted presence in Patna's real estate market"
