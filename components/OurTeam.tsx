@@ -3,28 +3,26 @@ export default function OurTeam() {
   const Team = [
     {
       id: 1,
-      avatar: "/team/team1.jpeg",
-      name: "S.K     Maurya",
-            title: "Founder & CEO",
-
+      avatar: "/team/team5.jpeg",
+      name: "S.K Maurya",
+      title: "Founder & CEO",
     },
-    {
+     {
       id: 2,
-      avatar: "/team/team1.jpeg",
-      name: "Er. Satya Prakash",
-            title: "Director",
-
+      avatar: "/team/team2.jpeg",
+      name: "John Sharma",
+      title: "Sales Head",
     },
     {
       id: 3,
-      avatar: "/team/team1.jpeg",
-     
-      name: "Jhon Sharam",
-       title: "Sales Head",
+      avatar: "/team/team3.jpeg",
+      name: "Er. Satya Prakash",
+      title: "Director",
     },
+   
     {
       id: 4,
-      avatar: "/team/team1.jpeg",
+      avatar: "/team/team4.jpeg",
       title: "Property Advisor",
       name: "Rahul Dev",
     },
