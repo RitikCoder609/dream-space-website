@@ -17,9 +17,62 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Dream Space Infra Developers | Patna's Premier Property Partner",
+  metadataBase: new URL("https://dreamspaceinfra.org"),
+
+  title: {
+    default:
+      "Dream Space Infra Developers | Real Estate Developers in Patna",
+    template: "%s | Dream Space Infra Developers",
+  },
+
   description:
-    "Dream Space Infra Developers (OPC) Pvt Ltd — turning dreams into reality. Real estate marketing, flats and investment deals in Patna.",
+    "Dream Space Infra Developers (OPC) Pvt Ltd is a real estate and infrastructure development company in Patna, Bihar, offering residential projects, property development and real estate solutions.",
+
+  applicationName: "Dream Space Infra Developers",
+
+  authors: [
+    {
+      name: "Dream Space Infra Developers",
+    },
+  ],
+
+  creator: "Dream Space Infra Developers",
+  publisher: "Dream Space Infra Developers",
+
+  alternates: {
+    canonical: "https://dreamspaceinfra.org",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+
+  openGraph: {
+    type: "website",
+    locale: "en_IN",
+    url: "https://dreamspaceinfra.org",
+    siteName: "Dream Space Infra Developers",
+    title:
+      "Dream Space Infra Developers | Real Estate Developers in Patna",
+    description:
+      "Dream Space Infra Developers — real estate and infrastructure development company in Patna, Bihar.",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Dream Space Infra Developers | Real Estate Developers in Patna",
+    description:
+      "Dream Space Infra Developers — real estate and infrastructure development company in Patna, Bihar.",
+  },
 };
 
 export const viewport: Viewport = {
