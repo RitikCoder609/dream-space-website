@@ -167,7 +167,7 @@ export default function OurTeam() {
               {/* Position */}{" "}
               <p className="mt-1 text-sm font-medium text-[#b08a45]">
                 {" "}
-                {member.title}{" "}
+                {/* {member.title}{" "} */}
               </p>{" "}
               {/* Small Line */}{" "}
               <div className="mt-4 h-[2px] w-8 rounded-full bg-[#b08a45] transition-all duration-300 group-hover:w-14" />{" "}
