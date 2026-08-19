@@ -75,12 +75,24 @@ export const metadata: Metadata = {
   },
 };
 
-export const viewport: Viewport = {
-  width: "device-width",
-  initialScale: 1,
-  viewportFit: "cover",
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "RealEstateAgent",
+  name: "Dream Space Infra Developers",
+  url: "https://dreamspaceinfra.org",
+  description:
+    "Dream Space Infra Developers (OPC) Pvt Ltd is a real estate and infrastructure development company in Patna, Bihar, offering residential projects, property development and real estate solutions.",
+  areaServed: {
+    "@type": "City",
+    name: "Patna",
+  },
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Patna",
+    addressRegion: "Bihar",
+    addressCountry: "IN",
+  },
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -90,6 +102,13 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${fraunces.variable} ${manrope.variable} font-sans`}>
         {children}
+
+         <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify(jsonLd),
+    }}
+  />
       </body>
     </html>
   );
