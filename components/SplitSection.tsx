@@ -34,10 +34,42 @@ export default function SplitSection({
   ctaHref,
 }: SplitSectionProps) {
   return (
+    // <section
+    //   id={id}
+    //   className={`overflow-hidden lg:py-20 ${bgClassName}`}
+    // >
     <section
       id={id}
-      className={`overflow-hidden lg:py-20 ${bgClassName}`}
+      className={`relative overflow-hidden lg:py-20 ${bgClassName}`}
     >
+
+      {/* floating Brokerage  */}
+<div className="pointer-events-none absolute right-3 top-1/2 z-20 -translate-y-1/2 sm:right-6 lg:right-2">
+  <div className="relative flex h-24 w-24 items-center justify-center rounded-full border-2 border-gold bg-navy shadow-[0_0_25px_rgba(212,175,55,0.65)] animate-pulse sm:h-18 sm:w-18">
+
+    {/* Outer glowing ring */}
+    <div className="absolute inset-[-8px] rounded-full border border-gold/50 animate-ping" />
+
+    {/* Content */}
+    <div className="relative z-10 text-center">
+      <span className="block text-2xl font-extrabold leading-none text-gold sm:text-3xl">
+        0%
+      </span>
+
+      <span className="mt-1 block text-[0.55rem] font-bold tracking-[0.15em] text-white sm:text-[0.6rem]">
+        BROKERAGE
+      </span>
+
+      {/* <span className="mt-1 block text-[0.45rem] font-semibold tracking-[0.12em] text-gold-light sm:text-[0.1rem]">
+        NO COMMISSION
+      </span> */}
+    </div>
+
+  </div>
+</div>
+      {/* floating Brokerage  */}
+
+
       <div
         className={`mx-auto grid w-full max-w-[1180px] items-center gap-16 px-4 sm:px-6 md:px-8 lg:gap-20 ${reverse ? "md:grid-cols-[1fr_0.85fr]" : "md:grid-cols-[0.85fr_1fr]"}`}
       >
@@ -68,9 +100,8 @@ export default function SplitSection({
         </Reveal>
 
         <Reveal className={reverse ? "lg:order-1" : "lg:order-2"}>
-          
           <p className="eyebrow">{eyebrow}</p>
-          <h2 className="mt-4 max-w-2xl font-display text-[1.8rem] font-semibold leading-tight text-navy sm:text-[2.6rem]">
+          <h2 className="mt-4 max-w-2xl font-display text-[1.8rem] font-semibold leading-tight text-navy sm:text-[1.6rem]">
             {heading}
           </h2>
 

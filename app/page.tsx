@@ -8,7 +8,6 @@ import { site } from "@/lib/site";
 import Policy from "@/components/Policy";
 import OurTeam from "@/components/OurTeam";
 
-
 export default function Home() {
   return (
     <main className="w-full min-w-0 overflow-x-clip">
@@ -24,41 +23,29 @@ export default function Home() {
         badgeLabel="Trusted presence in Patna's real estate market"
         eyebrow="Who We Are"
         heading="A trusted real estate company in Patna."
-        paragraph="Dream Space Infra Developers (OPC) Pvt Ltd is a trusted real estate marketing company dedicated to turning your dreams into reality. Whether you're searching for a sweet home to settle into, or a profitable property to invest in, we bring verified listings, honest guidance and end-to-end support to every deal."
+        paragraph="Dream Space Infra Developers Pvt Ltd की पूरी टीम हमेशा यह कोशिश करती है कि आपको बेहतर, भरोसेमंद और साफ-सुथरी Property Deal मिले।
+
+हमारा उद्देश्य सिर्फ Property बेचना नहीं, बल्कि आपकी जरूरत और बजट के अनुसार सही Property का सही विकल्प देना है।
+
+ हमारी सेवाएँ Dream Space Infra Developers Pvt Ltd की Policy है कि Customers से कोई Commission / Brokerage Charge नहीं लिया जाता।
+
+अगर आप Flat, Makan, Plot या Investment के लिए अच्छी और भरोसेमंद Deal तलाश रहे हैं, तो हमसे संपर्क करें।"
         features={[
-          "Residential & commercial property expertise",
-          "Curated properties across Patna",
-          "Professional support from enquiry to site visit",
-          "Customer-first & transparent property guidance",
+          "Flat & Apartment",
+          "Independent House / Makan",
+          "Residential & Commercial Plot",
+          "Property Investment",
+          "Best Property Deals in Patna"
         ]}
         ctaLabel="Talk to Our Team"
         ctaHref={site.whatsapp}
       />
+      
 
-      {/* <SplitSection
-       
-        reverse
-        bgClassName="bg-ivory"
-        imageSrc="/images/flat2.png"
-        imageAlt="Featured flat listing by Dream Space"
-        badgeValue="Ready"
-        badgeLabel="Move-in ready homes across prime Patna locations"
-        eyebrow="Featured Listing"
-        heading="Spacious flats, built for everyday living."
-        paragraph="Explore our current listing of well-planned apartments in Patna's growing neighbourhoods — designed for comfortable family living and strong long-term value. Every listing is personally verified by our team before it reaches you."
-        features={[
-          "2 & 3 BHK options available",
-          "Prime, well-connected locations",
-          "Clear title & documentation support",
-        ]}
-        ctaLabel="Enquire About This Listing"
-        ctaHref={site.whatsapp}
-      /> */}
+     
 
-      {/* <ImageSlider /> */}
-
-      <OurTeam/>
-      <Policy/>
+      <OurTeam />
+      <Policy />
 
       <Footer />
 
