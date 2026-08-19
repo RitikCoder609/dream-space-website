@@ -36,18 +36,16 @@ export default function SplitSection({
   return (
     <section
       id={id}
-      className={`overflow-hidden py-20 sm:py-24 md:py-32  ${bgClassName}`}
+      className={`overflow-hidden lg:py-20 ${bgClassName}`}
     >
       <div
-        className={`mx-auto grid w-full max-w-[1180px] items-center gap-16 px-4 sm:px-6 md:px-8 lg:gap-20 ${
-          reverse ? "lg:grid-cols-[1fr_0.85fr]" : "lg:grid-cols-[0.85fr_1fr]"
-        }`}
+        className={`mx-auto grid w-full max-w-[1180px] items-center gap-16 px-4 sm:px-6 md:px-8 lg:gap-20 ${reverse ? "md:grid-cols-[1fr_0.85fr]" : "md:grid-cols-[0.85fr_1fr]"}`}
       >
         <Reveal
           direction={reverse ? "right" : "left"}
           className={reverse ? "lg:order-2" : "lg:order-1"}
         >
-          <div className="relative mx-auto max-w-[380px] pb-8 lg:max-w-none lg:pb-0">
+          <div className="relative mx-auto max-w-1/2 pb-8 lg:max-w-none lg:pb-0">
             <div className="relative aspect-[4/5] overflow-hidden rounded-none border-4 border-white shadow-soft outline outline-1 outline-gold/30 sm:border-[6px]">
               <Image
                 src={imageSrc}
@@ -70,8 +68,8 @@ export default function SplitSection({
         </Reveal>
 
         <Reveal className={reverse ? "lg:order-1" : "lg:order-2"}>
+          
           <p className="eyebrow">{eyebrow}</p>
-
           <h2 className="mt-4 max-w-2xl font-display text-[1.8rem] font-semibold leading-tight text-navy sm:text-[2.6rem]">
             {heading}
           </h2>
@@ -92,14 +90,6 @@ export default function SplitSection({
             ))}
           </ul>
 
-          {/* <a
-            href={ctaHref}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-8 inline-flex items-center gap-2.5 rounded-sm bg-gold px-6 py-[14px] text-[0.84rem] font-bold tracking-wide text-navy-deep transition-all hover:-translate-y-0.5 hover:bg-gold-light sm:px-7 sm:py-[15px]"
-          >
-            {ctaLabel}
-          </a> */}
           <div className="mt-8 flex items-center gap-5">
             <a
               href={ctaHref}
