@@ -9,7 +9,7 @@ import { WhatsAppIcon } from "./Icons";
 const navItems = [
   { href: "#home", label: "Home" },
   { href: "#about", label: "About" },
-  { href: "#properties", label: "Inventory" },
+  // { href: "#properties", label: "Inventory" },
     { href: "#commission", label: "Policy" },
 
   { href: "#contact", label: "Contact" },
