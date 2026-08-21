@@ -82,20 +82,20 @@ export default function SplitSection({
               />
             </div>
 
-            <div className="absolute -bottom-1 left-1/2 w-[min(220px,72vw)] -translate-x-1/2 rounded bg-navy px-5 py-4 text-white shadow-badge sm:-bottom-3 sm:px-6 sm:py-5 lg:bottom-[-28px] lg:left-[-28px] lg:w-[220px] lg:translate-x-0">
+            {/* <div className="absolute -bottom-1 xl:left-1/2 w-[min(220px,72vw)] -translate-x-1/2  rounded bg-navy px-5 py-4 text-white shadow-badge sm:-bottom-3 sm:px-6 sm:py-5 lg:bottom-[-28px] lg:left-[-28px] lg:w-[220px] lg:translate-x-0">
               <b className="block font-display text-2xl text-gold-light">
                 {badgeValue}
               </b>
               <span className="text-[0.72rem] leading-5 text-white/75 sm:text-[0.74rem]">
                 {badgeLabel}
               </span>
-            </div>
+            </div> */}
           </div>
         </Reveal>
 
         <Reveal className={reverse ? "lg:order-1" : "lg:order-2"}>
           <p className="eyebrow">{eyebrow}</p>
-          <h2 className="mt-4 max-w-2xl font-display text-[1.8rem] font-semibold leading-tight text-navy sm:text-[1.6rem]">
+          <h2 className="mt-4 max-w-2xl font-['Comic_Sans_MS'] text-[1.8rem] font-semibold leading-tight text-navy sm:text-[1.6rem]">
             {heading}
           </h2>
 
@@ -107,9 +107,9 @@ export default function SplitSection({
             {features.map((feature) => (
               <li
                 key={feature}
-                className="flex items-start gap-3 text-[0.93rem] font-semibold leading-6 text-ink"
+                className="flex items-start gap-3 text-[0.95rem] font-semibold leading-6 text-ink font-['Comic_Sans_MS']"
               >
-                <CheckIcon className="mt-1 h-[18px] w-[18px] flex-none text-gold" />
+                <CheckIcon className="mt-1 h-[18px] w-[18px] flex-none text-gold " />
                 <span>{feature}</span>
               </li>
             ))}

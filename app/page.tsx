@@ -22,7 +22,7 @@ export default function Home() {
         badgeValue="7+ Yrs"
         badgeLabel="Trusted presence in Patna's real estate market"
         eyebrow="Who We Are"
-        heading="A trusted real estate company in Patna."
+        heading="A Trusted Real Estate Company in Patna."
         paragraph="Dream Space Infra Developers Pvt Ltd की पूरी टीम हमेशा यह कोशिश करती है कि आपको बेहतर, भरोसेमंद और साफ-सुथरी Property Deal मिले।
 
 हमारा उद्देश्य सिर्फ Property बेचना नहीं, बल्कि आपकी जरूरत और बजट के अनुसार सही Property का सही विकल्प देना है।
