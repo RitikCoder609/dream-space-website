@@ -2,9 +2,10 @@
 
 export default function Hero() {
   return (
+    
     <section
       id="home"
-      className="bg-white relative flex min-h-[800px] flex-col justify-center overflow-hidden bg-[center_65%] bg-contain bg-no-repeat"
+      className="bg-white relative flex xl:h-[800px] md:h-[600px] h-[360px] flex-col justify-center overflow-hidden bg-[center_50%] bg-contain bg-no-repeat"
       style={{
         backgroundImage: "url('/images/logo.png')",
       }}
