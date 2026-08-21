@@ -107,7 +107,7 @@ export default function SplitSection({
             {features.map((feature) => (
               <li
                 key={feature}
-                className="flex items-start gap-3 text-[0.95rem] font-semibold leading-6 text-ink font-['Comic_Sans_MS']"
+                className="flex items-start gap-3 text-[1.1rem] font-semibold leading-6 text-ink font-['Comic_Sans_MS']"
               >
                 <CheckIcon className="mt-1 h-[18px] w-[18px] flex-none text-gold " />
                 <span>{feature}</span>
