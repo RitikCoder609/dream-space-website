@@ -49,18 +49,37 @@ export default function OurTeam() {
       // title: "Director",
     },
    
-    // {
-    //   id: 4,
-    //   avatar: "/exclusivepartners/vedanta.jpg",
-    //   name: "Vedanta Homes",
-    //   // title: "Director",
-    // },
+    {
+      id: 4,
+      avatar: "/exclusivepartners/vedanta.jpg",
+      name: "Vedanta Homes",
+      // title: "Director",
+    },
      {
       id: 5,
       avatar: "/exclusivepartners/manorath.png",
       name: "Manorath Construction",
       // title: "Director",
     },
+    {
+      id: 6,
+      avatar: "/exclusivepartners/umeed.jpg",
+      name: "Umeed Nagar Township",
+      // title: "Director",
+    },
+     {
+      id: 7,
+      avatar: "/exclusivepartners/winsome.png",
+      name: "Winsome Builders",
+      // title: "Director",
+    },
+    {
+      id: 8,
+      avatar: "/exclusivepartners/vanasthali.jpg",
+      name: "Vanasthali Homes LLP",
+      // title: "Director",
+    },
+    
   ];
   return (
     <section className="w-full bg-[#faf9f6] px-5 py-20 md:px-10 lg:px-20">
