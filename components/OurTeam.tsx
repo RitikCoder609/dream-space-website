@@ -69,7 +69,7 @@ export default function OurTeam() {
     },
      {
       id: 7,
-      avatar: "/exclusivepartners/winsome.png",
+      avatar: "/exclusivepartners/winsome.jpg",
       name: "Winsome Builders",
       // title: "Director",
     },
