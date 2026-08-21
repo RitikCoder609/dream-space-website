@@ -44,13 +44,11 @@ export default function SplitSection({
     >
 
       {/* floating Brokerage  */}
-<div className="pointer-events-none absolute right-3 top-1/2 z-20 -translate-y-1/2 sm:right-6 lg:right-2">
+{/* <div className="pointer-events-none absolute right-3 top-1/2 z-20 -translate-y-1/2 sm:right-6 lg:right-2">
   <div className="relative flex h-24 w-24 items-center justify-center rounded-full border-2 border-gold bg-navy shadow-[0_0_25px_rgba(212,175,55,0.65)] animate-pulse sm:h-18 sm:w-18">
 
-    {/* Outer glowing ring */}
     <div className="absolute inset-[-8px] rounded-full border border-gold/50 animate-ping" />
 
-    {/* Content */}
     <div className="relative z-10 text-center">
       <span className="block text-2xl font-extrabold leading-none text-gold sm:text-3xl">
         0%
@@ -59,14 +57,10 @@ export default function SplitSection({
       <span className="mt-1 block text-[0.55rem] font-bold tracking-[0.15em] text-white sm:text-[0.6rem]">
         BROKERAGE
       </span>
-
-      {/* <span className="mt-1 block text-[0.45rem] font-semibold tracking-[0.12em] text-gold-light sm:text-[0.1rem]">
-        NO COMMISSION
-      </span> */}
     </div>
 
   </div>
-</div>
+</div> */}
       {/* floating Brokerage  */}
 
 

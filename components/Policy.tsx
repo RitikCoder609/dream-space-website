@@ -17,11 +17,11 @@ export default function ZeroCommission() {
               <p className="eyebrow">Our Zero Buyer Commission Policy</p>
 
               <h2 className="mt-4 font-display text-[1.8rem] font-semibold leading-tight text-navy sm:text-[2.5rem]">
-                Zero Commission
+                Zero Commission <span className="text-xl">(New &amp; Under Construction Only)</span>
               </h2>
 
               <p className="mt-5 text-[0.95rem] leading-7 text-slate sm:text-[1rem]">
-                For eligible new-flat transactions, Dream Space does not
+                For eligible new-flat transactions only, Dream Space does not
                 charge brokerage or commission from the buyer. We believe
                 customers should be able to explore and purchase their
                 property without the additional burden of buyer-side
